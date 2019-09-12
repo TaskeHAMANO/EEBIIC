@@ -35,7 +35,6 @@ def argument_parse(argv=None):
                         type=str,
                         default="weibull5",
                         choices=[
-<<<<<<< HEAD
                             "weibull1",
                             "weibull2",
                             "weibull3",
