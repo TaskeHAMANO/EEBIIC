@@ -15,7 +15,7 @@ parameters {
     real gut_state_mu ;
     real<lower=0> gut_state_sigma ;
     real<lower=0> shape_sigma ;
-    real beta_placebo_sigma ;
+    real<lower=0> beta_placebo_sigma ;
 }
 
 transformed parameters {

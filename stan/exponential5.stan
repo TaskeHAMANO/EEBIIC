@@ -12,7 +12,7 @@ parameters {
     real beta[N, 2] ;
     real gut_state_mu ;
     real<lower=0> gut_state_sigma ;
-    real beta_sigma[2] ;
+    real<lower=0> beta_sigma[2] ;
 }
 
 transformed parameters {
