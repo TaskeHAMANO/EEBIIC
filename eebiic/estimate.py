@@ -48,6 +48,7 @@ def argument_parse(argv=None):
                             "weibull10",
                             "weibull11",
                             "weibull12",
+                            "weibull13",
                             "exponential5"
                         ],
                         help="Model type (default: weibull5)")
