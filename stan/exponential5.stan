@@ -20,7 +20,7 @@ transformed parameters {
     real lambda[I] ;
     for (i in 1:I){
         gut_state_affected[i] = gut_state[SubjectID[i]] + beta[SubjectID[i], 1] * Testfood[i] + beta[SubjectID[i], 2] * Placebo[i] ;
-        lambda[i] = exp(gut_state_affected[i]) ;
+        lambda[i] = 1 / exp(gut_state_affected[i]) ;
     }
 }
 
